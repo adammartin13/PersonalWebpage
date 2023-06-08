@@ -43,43 +43,68 @@
     <div class="container" id="bio">
         <h2>About Me</h2>
         <p>
-            I'm currently conducting research at Old Dominion University while finishing my undergrad at<br>
-            Iowa State University. I love writing software, coffee, music, mountain climbing, family and<br>
-            making the world a better place through my work.<br>
+            I'm currently conducting research at Old Dominion University while finishing my undergrad at
+            Iowa State University. I love writing software, coffee, music, mountain climbing, family and
+            making the world a better place through my work.
         </p>
     </div>
     <div class="container" id="projects">
-        <div id="carouselExampleIndicators" class="carousel slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <h2>Old Dominion University REU Student</h2>
-                <img src="./images/REU.jpg" width="60%">
-                <p>
-                    I'm currently working with a team of individuals to develop methods for tackling<br>
-                    disinformation online. Subjects of interest include hate speech against migrant<br>
-                    communities and false information spread from Russian media outlets regarding the<br>
-                    Ukrainian conflict.<br>
-                </p>
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <h2>Old Dominion University REU Student</h2>
+                  <img src="./images/REU.jpg">
+                  <p>
+                      I'm currently working with a team of individuals to develop methods for tackling
+                      disinformation online. Subjects of interest include hate speech against migrant
+                      communities and false information spread from Russian media outlets regarding the
+                      Ukrainian conflict.
+                  </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <h2>TBA AI Project</h2>
+                  <img src="./images/ai.png">
+                  <p>
+                      I've been working on an undisclosed AI project for the past three years that I'm
+                      hoping to announce soon. The provided image is something I whipped up on my first week.
+                  </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <h2>ACST Intern</h2>
+                  <img src="./images/acst.jpg">
+                  <p>
+                      I had the amazing opportunity to work remotely with the people of ACS Technologies
+                      for over a year. I spent that time rennovating help pages for their customers so
+                      that they may better understand their products. The range of projects I worked on
+                      range from web development, DOM editing, DITA, PDF CSS compositing, and even
+                      building a web crawler.
+                  </p>
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <h2>Police Brutality Twitter Bot</h2>
+                    <img src="./images/bot.png">
+                    <p>
+                        I wrote a Twitter bot @BotBrutality during the summer of 2020 for tracking
+                        instances of police brutality distributed on the social media platform. All
+                        data (at the time) was backed up and distributed online. The dataset can be found
+                        on the account page.
+                    </p>
+                  </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                  <h2>Game Development</h2>
+                  <img src="./images/game.png">
+                  <p>
+                      I dabbled in game development for a couple months. I wrote a custom movement and
+                      camera system for a Playstation 1 inspired horror game, as well as creating some
+                      3D assets in Blender.
+                  </p>
+                </div>
               </div>
-              <div class="carousel-item">
-                <h2>Project 1</h2>
-                <p>Some text</p>
-              </div>
-              <div class="carousel-item">
-                <h2>Project 1</h2>
-                <p>Some text</p>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>

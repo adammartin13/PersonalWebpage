@@ -1,27 +1,41 @@
+body{
+    /*background-color: #d2b48c;*/
+    background-image: url('./images/coffee.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+}
+
 #profile {
     width: 20%;
-    height: 100%;
     position: absolute;
     float: left;
 }
+
 #bio {
     width: 40%;
     margin-left: 30%;
-    margin-top: 5%;
+    margin-top: 1%;
     padding-top: 1%;
     padding-left: 1%;
     padding-bottom: 1%;
-    background-color: #efefef;
+    background-color: #987554;
+    color:#422b1b;
 }
+
 #projects {
     margin-left: 20%;
     margin-top: 1%;
-    color: #efefef;
-    background-color: #8f8f8f;
+    color: #e5d3b3;
+    /*background-color: rgba(66,42,29,0.9);*/
+    background-image: radial-gradient(rgba(66,42,29,5), rgba(66,42,29,0));
+    width: 60%;
+    max-height: 65vh;
 }
+
 .card {
     width: 90%;
-    background-color: #efefef;
+    background-color: #987554;
+    color:#422b1b;
     border: none;
 }
 
@@ -37,15 +51,22 @@
 
 .text span {
     font-size: 13px;
-    color: #545454;
+    color:#422b1b;
     font-weight: 500;
 }
 
 .carousel-item{
     padding-left: 10%;
     padding-top: 1%;
+    padding-right: 10%;
+}
+
+.carousel-item img{
+    margin-left: 20%;
+    max-width: 50%;
+    max-height: 10%;
 }
 
 .carousel{
-    padding-bottom: 30vh;
+    padding-bottom: 1vh;
 }
